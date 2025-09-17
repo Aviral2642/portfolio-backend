@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "apollo-server-express": "^3.13.0",
+    "graphql": "^16.8.1",
+    "mongoose": "^7.6.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^7.0.0",
+    "dotenv": "^16.4.0",
+    "socket.io": "^4.7.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  }
+}
